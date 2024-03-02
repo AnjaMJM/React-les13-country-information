@@ -1,0 +1,7 @@
+.img-map {
+    max-width: 100vw;
+}
+
+.all-country-btn:disabled {
+    visibility: hidden;
+}
