@@ -2,6 +2,7 @@
     max-width: 100vw;
 }
 
-.all-country-btn:disabled {
-    visibility: hidden;
+.list-countries {
+    display: flex;
+    flex-wrap: wrap;
 }

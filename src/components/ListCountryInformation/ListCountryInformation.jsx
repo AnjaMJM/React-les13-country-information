@@ -1,6 +1,6 @@
 import "./ListCountryInformation.css"
 
-function ListCountryInformation({flag, countryName, imgAlt, region, listKey}) {
+function ListCountryInformation({flag, countryName, imgAlt, region, listKey, number}) {
 let color = 'grey'
     switch (region) {
         case 'Africa':
@@ -21,10 +21,13 @@ let color = 'grey'
     }
 
     return (
-        <div>
-            <li key={listKey}>
+        <div key={listKey} className="list-countries-wrapper">
+            <li className="list-countries-item">
             <img className="img-flag" src={flag} alt={imgAlt} />
-            <h1 className={color}>{countryName}</h1>
+            <div className="list-countries-info">
+                <h2 className={color}>{countryName}</h2>
+                <p>Has a population of {number} people</p>
+            </div>
             </li>
         </div>
     );

@@ -20,5 +20,33 @@
 
 .img-flag {
     width: 100px;
+    height: 100%;
+    align-self: center;
+}
 
+/*.list-countries-wrapper {*/
+/*    display: flex;*/
+/*}*/
+
+.list-countries-item {
+    display: flex;
+    width: 350px;
+    gap: 10px;
+    padding: 10px 40px;
+    flex-grow: 0;
+
+    border: 2px dashed black
+    /*align-items: center;*/
+}
+
+.list-countries-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.list-countries-info p, h2 {
+
+    border: 2px dashed red;
 }
