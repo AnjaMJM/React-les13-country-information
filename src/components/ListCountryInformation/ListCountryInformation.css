@@ -30,13 +30,12 @@
 
 .list-countries-item {
     display: flex;
-    width: 350px;
+    max-width: 400px;
     gap: 10px;
     padding: 10px 40px;
     flex-grow: 0;
+    flex-shrink: 1;
 
-    border: 2px dashed black
-    /*align-items: center;*/
 }
 
 .list-countries-info {
@@ -46,7 +45,3 @@
     align-content: space-around;
 }
 
-.list-countries-info p, h2 {
-
-    border: 2px dashed red;
-}
