@@ -1,0 +1,47 @@
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.purple {
+    color: purple;
+}
+
+.img-flag {
+    width: 100px;
+    height: 100%;
+    align-self: center;
+}
+
+/*.list-countries-wrapper {*/
+/*    display: flex;*/
+/*}*/
+
+.list-countries-item {
+    display: flex;
+    max-width: 400px;
+    gap: 10px;
+    padding: 10px 40px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+}
+
+.list-countries-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+

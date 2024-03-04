@@ -1,0 +1,36 @@
+button {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    padding: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 20px;
+    transform: rotate(-5deg);
+    cursor: pointer;
+}
+
+button:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+button:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:nth-child(2n) {
+    transform: rotate(3deg);
+}
+button:nth-child(3n) {
+    transform: rotate(-2deg);
+}
